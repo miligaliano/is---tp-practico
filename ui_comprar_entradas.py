@@ -29,7 +29,7 @@ class ComprarEntradasUI(ctk.CTk):
         self.geometry("600x600")
 
         # Logo
-        logo_img = ctk.CTkImage(light_image=Image.open("Ecoharmony park - logo.png"), size=(100, 100))
+        logo_img = ctk.CTkImage(light_image=Image.open("ecoharmony park - logo.png"), size=(100, 100))
         ctk.CTkLabel(self, image=logo_img, text="").pack(pady=(10, 0))
 
         ctk.CTkLabel(self, text=f"Bienvenida, {self.usuario_logueado.email}", font=self.fuente_montserrat, text_color=self.color_titulo).pack(pady=10)
